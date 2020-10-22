@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "allowJs": false,
+        "alwaysStrict": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "lib": [
+            "dom",
+            "ES2019"
+        ],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noEmit": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "allowSyntheticDefaultImports": true,
+        "target": "ES2019",
+        "rootDir": ".",
+        "baseUrl": ".",
+        "paths": {
+            "@/routes/*": [
+                "src/api/routes/*"
+            ],
+        },
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
